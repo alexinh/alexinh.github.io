@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOCTYPE</title>
+</head>
+<body>
+<p>Элемент&lt;!DOCTYPE&gt;предназначен для указания
+    типа текущего документа — DTD
+    (document type definition, описание типа   документа). Это необходимо, чтобы браузер понимал, как следует интерпретировать   текущую веб-страницу, поскольку HTML существует в нескольких версиях, кроме того,   имеется XHTML (EXtensible HyperText Markup Language, расширенный язык разметки   гипертекста), похожий на HTML, но различающийся с ним по синтаксису. Чтобы   браузер «не путался» и понимал, согласно какому стандарту отображать   веб-страницу и необходимо в первой строке кода задавать <span class="tag">&lt;!DOCTYPE&gt;</span>.</p>
+<p>Синтаксис<strong><p class="example">&lt;!DOCTYPE [Элемент верхнего уровня] [Публичность] "[Регистрация]//[Организация]//[Тип] [Имя]//[Язык]" "[URL]"&gt;</p></strong></p><hr>
+<h3>Параметры</h3>
+<p><span class="attribute">Элемент верхнего уровня</span> — указывает элемент верхнего уровня в документе, для HTML это тег <span class="tag">&lt;html&gt;</span>.</p>
+<p><span class="attribute">Публичность</span> — объект является публичным (значение <span class="value">PUBLIC</span>) или системным ресурсом (значение <span class="value">SYSTEM</span>), например, таким как локальный файл. Для HTML/XHTML          указывается значение <span class="value">PUBLIC</span>. </p>
+<p><span class="attribute">Регистрация</span> — сообщает, что разработчик DTD зарегистрирован в международной организации по стандартизации (International Organization for Standardization, ISO). Принимает одно из двух значений: плюс (+)&nbsp;— разработчик зарегистрирован в ISO и - (минус)&nbsp;— разработчик не зарегистрирован. Для W3C значение ставится «-».</p>
+<p><span class="attribute">Организация</span> — уникальное название организации, разработавшей DTD. Официально HTML/XHTML публикует <span class="value">W3C</span>, это название и пишется в <span class="tag">&lt;!DOCTYPE&gt;</span>.</p>
+<p><span class="attribute">Тип</span> — тип описываемого документа. Для HTML/XHTML значение указывается <span class="value">DTD</span>.</p>
+<p><span class="attribute">Имя</span> — уникальное имя документа для описания DTD. </p>
+<p><span class="attribute">Язык</span> — язык, на котором написан текст для описания объекта. Содержит две буквы, пишется в верхнем регистре. Для документа HTML/XHTML указывается английский язык (<span class="value">EN</span>).</p>
+<p><span class="attribute">URL</span> — адрес документа с DTD.</p>
+</html>
